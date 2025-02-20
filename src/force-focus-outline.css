@@ -1,0 +1,22 @@
+/**
+ * force-focus-outline.css
+ */
+*:focus:focus-visible,
+* > *:focus:focus-visible,
+* > * > *:focus:focus-visible,
+* > * > * > *:focus:focus-visible,
+* > * > * > * > *:focus:focus-visible,
+* > * > * > * > * > *:focus:focus-visible,
+* > * > * > * > * > * > *:focus:focus-visible,
+* > * > * > * > * > * > * > *:focus:focus-visible,
+* > * > * > * > * > * > * > * > *:focus:focus-visible,
+* > * > * > * > * > * > * > * > * > *:focus:focus-visible,
+* > * > * > * > * > * > * > * > * > * > *:focus:focus-visible,
+* > * > * > * > * > * > * > * > * > * > * > *:focus:focus-visible,
+* > * > * > * > * > * > * > * > * > * > * > * > *:focus:focus-visible,
+* > * > * > * > * > * > * > * > * > * > * > * > * > *:focus:focus-visible,
+* > * > * > * > * > * > * > * > * > * > * > * > * > * > *:focus:focus-visible {
+  outline: 3px solid tomato !important;  /* You can change the color and style of the outline */
+  border-radius: 3px
+}
+
